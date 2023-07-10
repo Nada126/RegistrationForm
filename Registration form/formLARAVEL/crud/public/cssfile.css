@@ -1,0 +1,264 @@
+body{background-image :url("rm222batch4-mind-27.jpg")}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .form-inline {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    /* Add some margins for each label */
+    .form-inline label {
+        margin: 5px 10px 5px 0;
+    }
+
+    /* Style the input fields */
+    .form-inline input {
+        vertical-align: middle;
+        margin: 5px 10px 5px 0;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+    /* Style the submit button */
+    .form-inline button {
+        padding: 10px 20px;
+        background-color: dodgerblue;
+        border: 1px solid #ddd;
+        color: white;
+    }
+.form-control
+{
+width: 50%;
+text-align: center;
+
+}
+.form-control-file
+{
+    width: 50%;
+    text-align: center;
+}
+    .form-inline button:hover {
+        background-color: royalblue;
+    }
+
+    /* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+    @media (max-width: 800px) {
+        .form-inline input {
+            margin: 10px 0;
+        }
+
+        .form-inline {
+            flex-direction: column;
+            align-items: stretch;
+        }
+    }
+
+    .form-inline {
+        border: 0ch;
+
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .IIR
+    {
+        width: 15%;
+        color:azure;
+        height: 5%;
+        background-color: #252525;
+    }
+
+    label {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    input[type=date] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    #check-actors-btn {
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #check-actors-btn:hover {
+        background-color: #0062cc;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f1f1f1;
+        position: relative;
+        padding-bottom: 58px;
+        min-height: 100vh;
+    }
+
+    header {
+
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+
+
+    article {
+     
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        
+    }
+
+    article:last-child {
+        margin-bottom: 0;
+    }
+
+    article h3 {
+        margin: 10px 0 25px 0;
+    }
+
+    article p {
+        margin-top: 16px;
+        line-height: 24px;
+    }
+.btn-btn-primary{
+    width: 15%;
+    height: 5%;
+    float: left;
+    color:azure;
+        background-color: #252525;
+}
+    footer {
+
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        position: absolute;
+        width: 100%;
+
+    }
+
+    @media(max-width:768px) {
+        header {
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 22px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        footer {
+            padding: 30px 20px;
+        }
+
+        footer h1 {
+            font-size: 36px;
+            margin-bottom: 22px;
+        }
+
+        footer p {
+            font-size: 18px;
+        }
+
+        article {
+            margin-bottom: 16px;
+            font-size: 14px;
+        }
+
+        article h3 {
+            margin: 10px 0 20px 0;
+        }
+
+        article p {
+            margin-top: 16px;
+            line-height: 20px;
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+    }
+
+    .nav {
+        width: 100%;
+        background: #222222;
+        height: 80px;
+    }
+
+    ul li {
+        float: left;
+        margin-top: 20px;
+    }
+
+    .container {
+        background-color: rgb(215, 209, 203, 0.5);
+        padding: 30px;
+        width: 60%;
+    }
+
+    .Copy {
+        text-align: left;
+    }
+
+    ul li a {
+        width: 150px;
+        color: white;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .happ:hover {
+        background: #252525;
+        color: #f1f1f1;
+    }
+
+    .move {
+        float: right;
+        position: bottom;
+    }
+
+    .nn {
+        color: rgb(255, 250, 250);
+    }
+
+    .ww {
+        color: black;
+
+    }
+
+    .sad {
+        color: rgb(151, 200, 200);
+    }
+   
